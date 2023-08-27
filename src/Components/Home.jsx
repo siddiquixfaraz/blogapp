@@ -48,7 +48,7 @@ const Home = () => {
   />
     <div className='my-10 '>
       {posts.map((post) => (
-        <div className='w-[40vw] border-2 mx-auto p-3 rounded-md mb-3 relative' key={post._id}>
+        <div className='w-[40vw] sm:w-[80vw] border-2 mx-auto p-3 rounded-md mb-3 relative' key={post._id}>
           <div className='flex align-middle justify-end gap-2'>
             <BiSolidEdit className='hover:text-red-600 text-lg' 
             onClick={()=>{
